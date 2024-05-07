@@ -55,7 +55,8 @@ st.markdown("")
 button_col1, button_col2 = st.columns(2)
 with button_col1:
                 if st.button("Public health"):
-                    st.switch_page("//Pages//Public_Health.py")
+                    st.page_link("pages/Public_Health.py", label="Go to Public_Health", icon="1️⃣")
+                   # st.switch_page("//Pages//Public_Health.py")
 with button_col2:
                 if st.button("Ecosystem"):
                      st.switch_page("//Pages//Ecosystem.py")

@@ -55,10 +55,10 @@ st.markdown("")
 button_col1, button_col2 = st.columns(2)
 with button_col1:
                 if st.button("Public health"):
-                    st.switch_page("Pages/Profile.py")
+                    st.switch_page("https://github.com/OmSadigale/W1943544DPLC-CW/blob/5060fe23e860d8d39e43640fcab764382eae13a7/Pages/Public_Health.py")
 with button_col2:
                 if st.button("Ecosystem"):
-                     st.switch_page("Pages/Ecosystem.py")
+                     st.switch_page("https://github.com/OmSadigale/W1943544DPLC-CW/blob/5060fe23e860d8d39e43640fcab764382eae13a7/Pages/Ecosystem.py")
 
 
 

@@ -27,7 +27,9 @@ with st.sidebar:
 
 
 
-st.markdown("")
+st.markdown("It was found that by increasing the volume of urban wastewater premature deaths rise
+by approximately 0.844, highlighting significant health risks from inadequate wastewater
+management.")
 st.markdown("")
 
 

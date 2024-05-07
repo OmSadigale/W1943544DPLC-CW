@@ -74,22 +74,9 @@ st.map(Mod_data)
 st.markdown("")
 
 
-st.subheader("HeatMap and Histogram of Total Wastewater discharged without treatment")
-
-
-fig_col1, fig_col2 = st.columns(2)
-
-with fig_col1:
-    st.markdown("HEATMAP")
-    fig = px.density_heatmap(
-        data_frame=Mod_data, y="Entity", x="Total Wastewater"
-    )
-    st.write(fig)
-   
-with fig_col2:
-    st.markdown("HISTOGRAM")
-    fig2 = px.histogram(data_frame=Mod_data, x="Total Wastewater")
-    st.write(fig2)
+st.subheader("Histogram of Total Wastewater discharged without treatment")
+fig2 = px.histogram(data_frame=Mod_data, x="Year", y ="Total Wastewater" )
+st.write(fig2)
 
 
 

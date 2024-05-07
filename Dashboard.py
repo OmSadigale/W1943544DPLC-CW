@@ -68,7 +68,7 @@ st.markdown("")
 
 
 st.subheader("Countries having Wastewater discharged without treatment")
-st.map(Mod_data, color='#0044ff')
+st.map(Mod_data)
 
 
 st.markdown("")

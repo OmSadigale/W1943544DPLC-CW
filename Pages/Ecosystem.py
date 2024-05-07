@@ -26,7 +26,9 @@ with st.sidebar:
      df_year_selected_sorted = df_year_selected.sort_values(by="Entity", ascending=False)
 
 
-st.markdown("")
+st.markdown("Discharge volumes of urban, industrial and agricultural wastewater
+have a direct impact on total wastewater discharges to sea or inland waters resulting in
+water pollution around the globe")
 st.markdown("")
 
 
